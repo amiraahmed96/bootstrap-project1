@@ -1,0 +1,161 @@
+ul
+{
+    list-style-type: none;
+}
+.nav1
+{
+    height: 80px;
+    width: 90%;
+}
+.nav1 ul
+{
+     width: 100%;
+}
+.nav1 ul li
+{
+    float: left;
+   padding: 25px;
+}
+.nav1 ul li:hover
+{
+    background-color: black;
+}
+.nav1 ul li a
+{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+.nav1 span
+{
+    color: gray;
+}
+.nav1 h1
+{
+    color: forestgreen;
+    margin-left: 50px;
+}
+.nav2
+{
+    display: none;
+}
+
+
+
+.carousel .item img
+{
+    height: 80%;
+    width: 100%;
+}
+.carousel .item .carousel-caption
+{
+    color: forestgreen;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 50%;
+}
+.carousel .item p
+{
+    color: black;
+}
+.carousel .item button
+{
+    border-radius: 0;
+    width: 150px;
+    height: 50px;
+    background-color: forestgreen;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px)
+{
+    .nav1
+    {
+        display: none;
+    }
+    .nav2
+    {
+        display: block;
+        width: 90%;
+    }
+     .nav2 h2
+    {
+        
+    }
+     .nav2 i
+    {
+        font-size: 25px;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .nav2 ul.peg
+    {
+        background-color: rgba(0,0,0,0.7);
+        width: 85%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        z-index: 999;
+    }
+   
+    .display
+    {
+        transition: all 1s ease-in-out;
+        left: 0%;
+    }
+    .display1
+    {
+        transition: all 1s ease-in-out;
+        left: -85%;
+    }
+    .nav2 ul.peg li
+    {
+        padding: 10px 0px;
+        margin-left: -38px;
+    }
+    .nav2 ul.peg li:hover
+    {
+        background-color: black;
+    }
+    .nav2 ul.peg li a
+    {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .nav2 ul.peg li ul
+    {
+        position: relative;
+        background-color: transparent;
+       
+    }
+    .nav2 ul.peg li ul li
+    {
+        margin: 0px;
+    }
+    .nav2 ul li:hover ul li
+    {
+        background-color: transparent;
+    }
+    .nav2 ul.peg li ul li:hover
+    {
+        background-color: black;
+    }
+    .nav2 h2
+{
+    color: forestgreen;
+    margin-left: 10px;
+}
+    .nav2 span
+{
+    color: gray;
+}
+}
